@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Estudante - IOB Conecta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>IOB Conecta</h1>
+        <p>Instituto Oportunidade Brasil</p>
+    </header>
+
+    <main>
+        <h2>Olá, estudante!</h2>
+        <p>Bem-vindo ao ambiente escolar.</p>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>Minha Frequência</h3>
+                <p>Consulte suas presenças e faltas.</p>
+                <button onclick="verFrequencia()">Consultar frequência</button>
+            </div>
+
+            <div class="card">
+                <h3>Minhas Atividades</h3>
+                <p>Veja as atividades dos professores.</p>
+                <button onclick="verAtividades()">Consultar atividades</button>
+            </div>
+
+            <div class="card">
+                <h3>Avisos</h3>
+                <p>Confira os comunicados escolares.</p>
+                <button onclick="verAvisos()">Ver avisos</button>
+            </div>
+
+        </section>
+
+        <div id="resultado"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

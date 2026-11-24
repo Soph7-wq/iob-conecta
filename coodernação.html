@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel da Coordenação - IOB Conecta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>IOB Conecta</h1>
+        <p>Instituto Oportunidade Brasil</p>
+    </header>
+
+    <main>
+        <h2>Olá, coordenação!</h2>
+        <p>Bem-vindo ao painel de acompanhamento escolar.</p>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>Relatórios de Frequência</h3>
+                <p>Acompanhe a frequência dos estudantes.</p>
+                <button onclick="verRelatorios()">
+                    Ver relatórios
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>Atividades Publicadas</h3>
+                <p>Consulte as atividades dos professores.</p>
+                <button onclick="verPublicacoes()">
+                    Ver atividades
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>Comunicados</h3>
+                <p>Consulte os avisos escolares.</p>
+                <button onclick="verComunicados()">
+                    Ver comunicados
+                </button>
+            </div>
+
+        </section>
+
+        <div id="resultado"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

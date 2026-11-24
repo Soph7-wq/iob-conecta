@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Professor - IOB Conecta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>IOB Conecta</h1>
+        <p>Instituto Oportunidade Brasil</p>
+    </header>
+
+    <main>
+        <h2>Olá, professor!</h2>
+        <p>Bem-vindo ao seu ambiente de trabalho.</p>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>Registro de Frequência</h3>
+                <p>Registre a presença dos estudantes.</p>
+                <button onclick="registrarFrequencia()">
+                    Registrar frequência
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>Publicar Atividades</h3>
+                <p>Compartilhe atividades com os estudantes.</p>
+                <button onclick="publicarAtividade()">
+                    Publicar atividade
+                </button>
+            </div>
+
+        </section>
+
+        <div id="resultado"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
